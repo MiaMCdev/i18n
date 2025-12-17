@@ -1,0 +1,967 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "purchase": "購入",
+    "discord": "Discord",
+    "dashboard": "ダッシュボード",
+    "manage": "管理"
+  },
+  "home": {
+    "hero": {
+      "texts": [
+        {
+          "before": "ゲームを支配せよ",
+          "after": "."
+        },
+        {
+          "before": "完成度高すぎて競合は触れようとしない",
+          "after": "."
+        },
+        {
+          "before": "オリジナル。常に。まじで最高。",
+          "after": "."
+        },
+        {
+          "before": "なんで本物があるのに、コピー品で我慢するの？",
+          "after": "?"
+        },
+        {
+          "before": "真似されるほど強い、本物は更に上",
+          "after": "."
+        }
+      ],
+      "brand": "Opal Client",
+      "description": "最高な体験を実現するために構築されたプレミアムなMinecraft Utility Mod。Opalは現在Minecraft Fabric 1.21.10を対応しており、1.8サーバーと最新バージョンのサーバーの両方でスムーズで快適な体験を提供します",
+      "purchase": "購入",
+      "learnMore": "詳しく見る"
+    },
+    "features": {
+      "title": "なぜOpalを選ぶのか？",
+      "subtitle": "豊富な機能を搭載した当ソフトなら、他Clientには戻りたくなくなるでしょう。",
+      "items": {
+        "abundant": {
+          "title": "機能が豊富",
+          "description": "Opalには膨大な数のモジュールがあり、多様なカスタマイズ設定を備えています"
+        },
+        "userFriendly": {
+          "title": "使いやすさ",
+          "description": "Opalはシンプルで使いやすいように設計されています。インストールするだけでまじですぐに使えます"
+        },
+        "updates": {
+          "title": "安定したアップデート",
+          "description": "新機能の最新情報をいち早くお届けするため、頻繁にアップデートしています"
+        },
+        "compatibility": {
+          "title": "互換性",
+          "description": "OpalはWindows、macOS、Linuxでの互換性テストを実施済みです。"
+        },
+        "trusted": {
+          "title": "数千人にも信頼されている",
+          "description": "Opalは長年Client開発に携わってきた一流の開発者によって開発されています。"
+        },
+        "quality": {
+          "title": "高品質",
+          "description": "我々はユーザーを大切に考え、Clientを可能な限り優れたものにするように務めています"
+        }
+      }
+    },
+    "media": {
+      "title": "メディア",
+      "subtitle": "コミュニティのメンバーが作った動画を見てみてください！"
+    },
+    "cta": {
+      "title": "Minecraftの体験を更に高めよう。あなたの旅はここから始まる",
+      "button": "今すぐ購入！"
+    }
+  },
+  "purchase": {
+    "header": {
+      "title": "エディションを選択してください。",
+      "subtitle": "Opalを単体で購入することも、Terminusでフル体験をアンロックしてOpalを無料で含めることもできます。"
+    },
+    "chinaBanner": {
+      "text": "中国にお住まいですか？より良いサポートと支払い方法のため。正規代理店からご購入ください。",
+      "link": "代理店一覧"
+    },
+    "opal": {
+      "title": "Opal Client",
+      "price": "8.99",
+      "currency": "USD",
+      "description": "必要不可欠なMinecraftユーティリティ。軽くて、静かで、検出されない。",
+      "featuresTitle": "含まれる内容",
+      "features": [
+        "Opal Client (生涯)",
+        "今後のすべてのアップデート",
+        "Discordサポートへのアクセス"
+      ],
+      "button": "Opalを購入",
+      "paymentMethods": "Card, Apple Pay, Google Pay, Klarna, CashApp, WeChat Pay"
+    },
+    "terminus": {
+      "badge": "最高のコスパ",
+      "title": "Terminus: ミニゲーム版",
+      "price": "45.00",
+      "currency": "USD",
+      "description": "究極のミニゲームClient。Opal Clientが永久無料。",
+      "featuresTitle": "含まれる内容",
+      "features": [
+        "Terminus: ミニゲーム版 (生涯)",
+        "Opal Clientが無料で付属 (生涯)",
+        "今後のすべてのアップデート",
+        "Discordサポートへのアクセス",
+        "優先サポート"
+      ],
+      "button": "Terminusバンドルを購入する",
+      "paymentMethods": "Card, Apple Pay, Google Pay, Klarna, CashApp, WeChat Pay"
+    },
+    "crypto": {
+      "title": "仮想通貨での支払い",
+      "description": "USDT、BTC、ETH、LTC、またはXMRでの支払いについては、Discordでチケットを開いてください。"
+    },
+    "resellers": {
+      "title": "正規代理店",
+      "description": "信頼できるパートナーからOpalを購入し、地域に合わせた支払い方法とサポートをご利用ください。",
+      "visit": "ストアへアクセス",
+      "localized": {
+        "title": "多様な決済方法が使えます",
+        "description": "地域別の価格設定や上記に記載されていない特定の支払い方法をお探しですか？公式販売代理店が対応いたします。"
+      }
+    },
+    "upgrade": {
+      "title": "既存のOpal Userですか？",
+      "description": "Terminusへのアップグレードはわずか25.99USD。チケットを開いてお申し込みください"
+    },
+    "terms": "購入された時点で、利用規約に同意したものとします。ライフタイムとは、製品が提供されている期間を意味します。"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "manage": "管理",
+    "nav": {
+      "home": "ホーム",
+      "purchase": "購入",
+      "discord": "Discord",
+      "docs": "ドキュメント",
+      "setup": "セットアップ",
+      "configs": "Configs",
+      "changelog": "変更履歴",
+      "activate": "アクティベート",
+      "settings": "設定",
+      "overview": "概要",
+      "users": "ユーザー",
+      "network": "ネットワーク",
+      "forums": "フォーラム"
+    },
+    "overview": {
+      "title": "概要",
+      "userId": "ユーザーID",
+      "launch": "起動",
+      "launches": "起動回数",
+      "online": "オンライン"
+    },
+    "news": {
+      "title": "ニュース",
+      "view": "表示",
+      "empty": "まだ何もないやで！後ほどまたご確認ください"
+    },
+    "downloads": {
+      "title": "ダウンロード",
+      "opalClient": "Opal Client",
+      "downloadOpal": "Opalをダウンロードする",
+      "selectRelease": "リリースを選択",
+      "download": "ダウンロード",
+      "updated": "更新済み",
+      "ownedSince": "購入日",
+      "changelog": "変更履歴"
+    },
+    "launcher": {
+      "title": "ランチャー",
+      "opalLauncher": "Opal ランチャー",
+      "availableSince": "配信開始日",
+      "updated": "更新済み",
+      "changelog": "変更履歴"
+    },
+    "access": {
+      "title": "アクセス管理",
+      "hwid": "ハードウェアID",
+      "lastChanged": "最終変更日",
+      "ago": "前",
+      "changeable": "30日ごとに変更可能",
+      "reset": "リセット"
+    },
+    "docs": {
+      "title": "ドキュメント",
+      "description": "Opalを最大限に活用する方法",
+      "nav": {
+        "setup": "セットアップ",
+        "modules": "モジュール"
+      }
+    },
+    "setup": {
+      "title": "Clientセットアップ",
+      "description": "以下の手順に従って、Opalをお使いの環境で起動してください。",
+      "instructions": {
+        "title": "設定手順",
+        "description": "インストール手順",
+        "step1": {
+          "title": "ランチャーセットアップ",
+          "text": "{prismLink} をダウンロードし、{fabricLink} で 1.21.10 用の新しいプロファイルを作成して、Fabric API Modをインストールしてください。",
+          "note": "カスタムランチャーがリリースされるまでは、Prismの使用をお勧めします。"
+        },
+        "step2": {
+          "title": "Opalをダウンロード",
+          "text": "{dashLink}からOpalをダウンロードし、Fabric APIと同じmodsフォルダに配置してください。"
+        },
+        "step3": {
+          "title": "JVM引数",
+          "text": "起動プロファイルに以下のJVM引数を追加してください（プロファイル → 編集 → 設定 → Java引数）："
+        },
+        "step4": {
+          "title": "起動",
+          "text": "Opalを起動してください。Opalアカウントでのサインインが求められます。"
+        }
+      },
+      "troubleshooting": {
+        "title": "トラブルシューティング",
+        "description": "よくある問題と、質問する前に確認すること",
+        "checklist": {
+          "title": "確認項目",
+          "items": [
+            "セットアップ手順を正確に実行しましたか？",
+            "Prism Launcherを使用していますか？",
+            "正しいJVM引数が適用されていますか？",
+            "システムの時間は同期されていますか？",
+            "VPNがオフになった/場所が変わった？",
+            "ブロックされた地域（香港/中国）から接続していますか？"
+          ]
+        }
+      },
+      "commonErrors": {
+        "title": "Common Errors",
+        "description": "If you are encountering any of these errors, please check the following solutions.",
+        "items": [
+          {
+            "code": "Launch Error (No Code)",
+            "title": "Missing Java Arguments",
+            "description": "This indicates that the required JVM arguments are missing from your launcher profile."
+          },
+          {
+            "code": "0x5e",
+            "title": "Incompatible Launcher",
+            "description": "This error means the Java arguments are missing. This often happens when using an incompatible launcher."
+          },
+          {
+            "code": "4e-63 / 4f-63",
+            "title": "Connection Issue",
+            "description": "These errors typically indicate a weak or unstable internet connection, or interference from a P2P VPN (e.g. Radmin, Hamachi). Please disable these services and try again."
+          },
+          {
+            "code": "G-26",
+            "title": "HWID Mismatch",
+            "description": "We are not sure what causes this exactly, but usually resetting your HWID fixes it. You can request this in a support ticket if needed."
+          }
+        ]
+      },
+      "mods": {
+        "title": "Mods",
+        "description": "Compatible and incompatible mods.",
+        "required": {
+          "title": "Required",
+          "badge": "Must Have"
+        },
+        "recommended": {
+          "title": "Recommended",
+          "badge": "Good to Have",
+          "sodium": "Performance",
+          "accountSwitcher": "In-Game Account Switcher",
+          "accountSwitcherTooltip": "Join the Discord after linking your account to get our custom version"
+        },
+        "incompatible": {
+          "title": "Incompatible",
+          "badge": "Do Not Use"
+        },
+        "unsupportedLaunchers": {
+          "title": "Unsupported Launchers",
+          "badge": "Not Supported",
+          "description": "The following launchers are not supported. Please use our official launcher or a compatible alternative."
+        }
+      },
+      "faq": {
+        "title": "FAQ",
+        "description": "Frequently asked questions.",
+        "questions": {
+          "olderVersions": {
+            "q": "How can I use Opal on older versions servers?",
+            "a": "By using {link}."
+          }
+        }
+      }
+    },
+    "changelog": {
+      "title": "Changelog",
+      "description": "Learn what's new in the latest version of Opal!",
+      "opalLauncher": "Opal Launcher",
+      "opal": "Opal",
+      "launcherBadge": "launcher",
+      "noNotes": "No changelog is available for this release."
+    },
+    "activate": {
+      "title": "Activate License",
+      "description": "Have an activation key? Enter it below to redeem it. If you would like to migrate your client access, click {migrate} instead.",
+      "migrateBold": "Migrate",
+      "tabs": {
+        "redeem": "Redeem",
+        "migrate": "Migrate",
+        "buy": "Buy"
+      },
+      "forms": {
+        "redeem": {
+          "placeholder": "OPAL-XXXX-XXXX-XXXX"
+        },
+        "migrate": {
+          "description": "If you already own <strong class=\"font-medium\">Opal</strong>, you can use this to transfer your access to our new system. If you need help, open a ticket.",
+          "username": "Username",
+          "password": "Password"
+        },
+        "buy": {
+          "description": "Purchase <strong class=\"font-medium\">Opal</strong>. A key will be sent to your email after a successful purchase.",
+          "button": "Continue to Checkout"
+        },
+        "continue": "Continue"
+      },
+      "success": {
+        "title": "Congratulations!",
+        "description": "You've been granted access to Opal. <br />Welcome aboard!",
+        "dashboard": "Go to dashboard"
+      },
+      "errors": {
+        "invalidKey": "Code does not exist or is already redeemed.",
+        "invalidCredentials": "Invalid credentials.",
+        "generic": "Something went wrong. Please try again later.",
+        "failedCheckout": "Failed to start checkout"
+      }
+    }
+  },
+  "configs": {
+    "title": "Public Configs",
+    "card": {
+      "noDescription": "No description provided",
+      "ago": "ago",
+      "edit": "Edit",
+      "editTitle": "Edit {name}",
+      "nameLabel": "Name",
+      "namePlaceholder": "{name}'s amazing config",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "What's this config for? Add any notes you'd like to share.",
+      "saveChanges": "Save changes",
+      "copyCommand": "Copy load command",
+      "copiedToast": "Copied command to clipboard!",
+      "publish": "Publish",
+      "publishTitle": "Make your config public!",
+      "publishDescription": "Select an existing public config to update or publish your config as a new one. When you publish a config, other users will be able to view it.",
+      "chooseConfig": "Choose a config to publish...",
+      "publishNew": "Publish as a new config",
+      "clone": "Clone to private configs",
+      "cloneTitle": "Are you absolutely sure?",
+      "cloneDescription": "You are about to clone this config to your private configs.",
+      "cancel": "Cancel",
+      "continue": "Continue",
+      "delete": "Delete",
+      "deleteTitle": "Are you absolutely sure?",
+      "deleteDescription": "{name} ({id}) will be permanently deleted along with all associated data. This action is irreversible.",
+      "changesSaved": "Changes saved!"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "nav": {
+      "account": "Account",
+      "security": "Security",
+      "connections": "Connections"
+    },
+    "account": {
+      "title": "Account",
+      "username": {
+        "title": "Username",
+        "description": "This is the username associated with your account.",
+        "toast": "Your username has been changed!",
+        "cooldown": "Your username can be changed again in {time}.",
+        "requirements": "Your username must be between 1 and 24 characters long.",
+        "save": "Save changes"
+      },
+      "email": {
+        "title": "Email address",
+        "description": "This is the email address tied to your account.",
+        "footer": "Your email address is not changeable."
+      }
+    },
+    "connections": {
+      "title": "Connections",
+      "card": {
+        "title": "Connections",
+        "description": "Link your account to third-party services to access additional features.",
+        "connected": "Connected",
+        "ago": "ago",
+        "requiresSetup": "Requires setup",
+        "notConnected": "Not connected",
+        "disconnect": "Disconnect",
+        "connect": "Connect",
+        "connectSpotify": "Connect Spotify",
+        "setup": "Setup",
+        "spotify": {
+          "title": "Setup Spotify Integration",
+          "description": "Create your own Spotify app to enable the integration. This is required due to Spotify's API limits.",
+          "instructions": "Instructions:",
+          "step1": "Go to {link}",
+          "step2": "Create a new app (any name/description)",
+          "step3": "Add this Redirect URI to your app settings:",
+          "copied": "Copied!",
+          "clientId": "Client ID",
+          "clientIdPlaceholder": "Your Spotify Client ID",
+          "clientSecret": "Client Secret",
+          "clientSecretPlaceholder": "Your Spotify Client Secret",
+          "saving": "Saving...",
+          "save": "Save Credentials"
+        }
+      }
+    },
+    "security": {
+      "title": "Security",
+      "password": {
+        "title": "Change password",
+        "description": "For your security, we highly recommend that you choose a strong password you don't use anywhere else.",
+        "current": "Current password",
+        "new": "New password",
+        "requirements": "Your new password must be between 6 and 72 characters long.",
+        "save": "Save changes",
+        "toast": "Your password has been changed!"
+      },
+      "twoFactor": {
+        "title": "Two-factor authentication",
+        "description": "Secure your account with TOTP two-factor authentication.",
+        "button": "Enable 2FA",
+        "footer": "We recommend using a trusted authenticator for 2FA, such as 1Password, Google Authenticator, or Authy.",
+        "enabled": "Enabled",
+        "disable": "Disable",
+        "setup": {
+          "title": "Setup Two-Factor Authentication",
+          "description": "Scan the QR code with your authenticator app (Google Authenticator, Authy, etc.)",
+          "manualEntry": "Can't scan? Enter this code manually:",
+          "verificationCode": "Verification Code",
+          "verify": "Verify & Enable",
+          "verifying": "Verifying...",
+          "cancel": "Cancel"
+        },
+        "backup": {
+          "title": "Save Your Backup Codes",
+          "description": "These codes can be used to access your account if you lose your authenticator. Each code can only be used once.",
+          "warning": "Store these codes in a safe place. They will not be shown again.",
+          "copy": "Copy All Codes",
+          "copied": "Copied!",
+          "confirm": "I've Saved My Codes"
+        },
+        "disableDialog": {
+          "title": "Disable Two-Factor Authentication",
+          "description": "Enter your password to confirm. This will make your account less secure.",
+          "password": "Password",
+          "cancel": "Cancel",
+          "confirm": "Disable 2FA",
+          "disabling": "Disabling..."
+        },
+        "toast": {
+          "setupFailed": "Failed to start 2FA setup",
+          "enabled": "2FA enabled successfully",
+          "invalidCode": "Invalid verification code",
+          "disabled": "2FA has been disabled",
+          "invalidPassword": "Invalid password",
+          "copied": "Backup codes copied",
+          "secretCopied": "Secret copied"
+        }
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "description": "Please enter your credentials to continue.",
+      "email": "Email address",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "signIn": "Sign in",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "twoFactor": {
+        "title": "Two-Factor Code",
+        "back": "Back",
+        "hint": "Enter the 6-digit code from your authenticator app, or a backup code."
+      }
+    },
+    "authorize": {
+      "title": "Authorize Application",
+      "request": "{app} wants to connect to your account",
+      "allow": "Allow",
+      "deny": "Deny"
+    },
+    "register": {
+      "title": "Create an account",
+      "description": "Please enter your information to sign up.",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Sign up",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "spotify": {
+      "connect": "Connect Spotify"
+    }
+  },
+  "reseller": {
+    "title": "Reseller Statistics",
+    "description": "View key usage statistics for each reseller prefix.",
+    "total": "Total",
+    "used": "Used",
+    "available": "Available"
+  },
+  "network": {
+    "title": "Network",
+    "networkSuffix": "Network",
+    "nav": {
+      "overview": "Overview",
+      "users": "Users",
+      "resellers": "Resellers",
+      "keys": "Keys",
+      "media": "Media",
+      "payments": "Payments"
+    },
+    "common": {
+      "loading": "Loading...",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "close": "Close",
+      "confirm": "Confirm",
+      "noPermission": "You don't have permission to access this.",
+      "thisMonth": "this month",
+      "remaining": "remaining",
+      "unknown": "Unknown",
+      "never": "Never",
+      "all": "All",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "overview": {
+      "totalKeysGenerated": "Total Keys Generated",
+      "usersInNetwork": "Users in Network",
+      "withKeysFrom": "With keys from {count} reseller",
+      "withKeysFromPlural": "With keys from {count} resellers",
+      "mediaKeysThisMonth": "Media Keys This Month",
+      "amountOwed": "Amount Owed",
+      "networkInfo": "Network Info",
+      "currency": "Currency",
+      "exchangeRate": "Exchange Rate",
+      "keyPrice": "Key Price",
+      "mediaKeyPrefix": "Media Key Prefix",
+      "yourPermissions": "Your Permissions",
+      "generateKeys": "Generate Keys",
+      "manageResellers": "Manage Resellers",
+      "manageMedia": "Manage Media",
+      "viewUsers": "View Users",
+      "resellers": "Resellers",
+      "noResellersYet": "No resellers in this network yet."
+    },
+    "users": {
+      "title": "Users",
+      "count": "{count} user in your network",
+      "countPlural": "{count} users in your network",
+      "noUsersYet": "No users found in your network yet.",
+      "noResellersFirst": "No resellers in this network yet. Add resellers first to see users.",
+      "searchPlaceholder": "Search by name or email...",
+      "allResellers": "All resellers",
+      "noMatchFilters": "No users match your filters.",
+      "never": "Never",
+      "table": {
+        "user": "User",
+        "reseller": "Reseller",
+        "key": "Key",
+        "hwid": "HWID",
+        "registered": "Registered",
+        "actions": "Actions"
+      },
+      "hwid": {
+        "bound": "Bound",
+        "notBound": "Not bound",
+        "reset": "Reset HWID",
+        "history": "HWID History",
+        "resetConfirm": {
+          "title": "Reset Hardware ID",
+          "description": "Are you sure you want to reset the hardware ID for {name}? They will need to re-authenticate on their next login.",
+          "confirm": "Reset HWID",
+          "cancel": "Cancel"
+        },
+        "historyDialog": {
+          "title": "HWID History",
+          "description": "Hardware ID changes for {name}",
+          "noHistory": "No HWID changes recorded.",
+          "eventSet": "HWID Set",
+          "eventReset": "HWID Reset"
+        },
+        "resetSuccess": "Hardware ID reset successfully!",
+        "resetError": "Failed to reset hardware ID."
+      },
+      "pagination": {
+        "page": "Page {current} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "resellers": {
+      "title": "Resellers",
+      "count": "{count} reseller in your network",
+      "countPlural": "{count} resellers in your network",
+      "addReseller": "Add Reseller",
+      "noResellersYet": "No resellers yet. Add your first reseller to start generating keys.",
+      "viewStore": "View store",
+      "table": {
+        "reseller": "Reseller",
+        "prefix": "Prefix",
+        "keys": "Keys",
+        "users": "Users",
+        "status": "Status",
+        "created": "Created",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "create": {
+        "title": "Add Reseller",
+        "description": "Add a new reseller to your network. The prefix will be used for key generation.",
+        "name": "Name",
+        "namePlaceholder": "Reseller name",
+        "prefix": "Key Prefix",
+        "prefixPlaceholder": "e.g., HHKW",
+        "prefixHint": "2-10 uppercase letters/numbers. Keys will be: PREFIX-XXXXXXXXXXXX",
+        "storeUrl": "Store URL (optional)",
+        "storeUrlPlaceholder": "https://...",
+        "description_field": "Description (optional)",
+        "descriptionPlaceholder": "Description shown on public reseller page...",
+        "contactInfo": "Contact Info (optional)",
+        "contactInfoPlaceholder": "WeChat, QQ, Discord, etc.",
+        "submit": "Add Reseller",
+        "success": "Reseller created",
+        "error": "Failed to create reseller"
+      },
+      "edit": {
+        "title": "Edit Reseller",
+        "description": "Update details for {name}.",
+        "submit": "Save Changes",
+        "success": "Reseller updated",
+        "error": "Failed to update reseller"
+      },
+      "delete": {
+        "confirm": "Are you sure you want to delete \"{name}\"? This cannot be undone.",
+        "success": "Reseller deleted",
+        "error": "Failed to delete reseller"
+      }
+    },
+    "keys": {
+      "title": "Keys",
+      "count": "{count} key in your network",
+      "countPlural": "{count} keys in your network",
+      "stats": "{total} total • {used} redeemed • {unused} available",
+      "noKeysYet": "No keys yet",
+      "noResellersFirst": "No resellers in this network yet. Add resellers first to generate keys.",
+      "generateKeys": "Generate Keys",
+      "copyUnusedKeys": "Copy Unused Keys",
+      "allResellers": "All resellers",
+      "allKeys": "All keys",
+      "unusedOnly": "Unused only",
+      "usedOnly": "Used only",
+      "noMatchFilters": "No keys match your filters.",
+      "table": {
+        "key": "Key",
+        "reseller": "Reseller",
+        "status": "Status",
+        "created": "Created",
+        "redeemed": "Redeemed",
+        "used": "Used",
+        "unused": "Unused",
+        "media": "Media"
+      },
+      "copy": {
+        "single": "Key copied to clipboard",
+        "multiple": "{count} keys copied to clipboard",
+        "noUnused": "No unused keys to copy"
+      },
+      "generate": {
+        "title": "Generate Keys",
+        "description": "Generate keys for a reseller. You will be charged ${price} per key.",
+        "reseller": "Reseller",
+        "resellerPlaceholder": "Select a reseller",
+        "count": "Number of Keys",
+        "countPlaceholder": "1-100",
+        "submit": "Generate Keys",
+        "success": "Generated {count} keys - ${usd} ({local} {currency})",
+        "error": "Failed to generate keys",
+        "result": {
+          "title": "Keys Generated",
+          "description": "{count} keys have been generated. Copy them now - you won't see them again.",
+          "amountOwed": "Amount owed:",
+          "copyAll": "Copy All Keys"
+        }
+      },
+      "pagination": {
+        "page": "Page {current} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "media": {
+      "title": "Media",
+      "count": "{count} media account in your network",
+      "countPlural": "{count} media accounts in your network",
+      "monthlyUsage": "{used}/{limit} keys used this month • {remaining} remaining",
+      "noPermission": "You don't have permission to manage media accounts.",
+      "addMedia": "Add Media",
+      "noMediaYet": "No media accounts found.",
+      "table": {
+        "name": "Name",
+        "platform": "Platform",
+        "key": "Key",
+        "status": "Status",
+        "added": "Added",
+        "active": "Active",
+        "inactive": "Inactive",
+        "noKey": "No key"
+      },
+      "create": {
+        "title": "Add Media Account",
+        "description": "Add a content creator to your network's media program.",
+        "name": "Name",
+        "namePlaceholder": "Creator name or channel",
+        "platform": "Platform",
+        "platformPlaceholder": "Select platform",
+        "platformUrl": "Channel/Profile URL",
+        "platformUrlPlaceholder": "https://youtube.com/@channel",
+        "notes": "Notes",
+        "notesPlaceholder": "Contact info, content focus, etc.",
+        "generateKey": "Generate Key",
+        "keysRemaining": "{count} media keys remaining this month",
+        "limitReached": "Monthly limit reached",
+        "submit": "Add Media",
+        "success": "Media account created",
+        "successWithKey": "Media account created! Key copied: {key}",
+        "error": "Failed to create media account"
+      },
+      "edit": {
+        "title": "Edit Media Account",
+        "description": "Update media account details.",
+        "submit": "Save Changes",
+        "success": "Media account updated",
+        "error": "Failed to update media account"
+      },
+      "delete": {
+        "confirm": "Delete media account \"{name}\"?",
+        "success": "Media account deleted",
+        "error": "Failed to delete media account"
+      },
+      "generateKey": {
+        "confirm": "Generate a key for \"{name}\"?",
+        "success": "Key generated and copied: {code}",
+        "error": "Failed to generate key"
+      },
+      "actions": {
+        "generateKey": "Generate Key",
+        "edit": "Edit",
+        "delete": "Delete"
+      }
+    },
+    "payments": {
+      "title": "Payments",
+      "noPermission": "You don't have permission to view payments.",
+      "balanceOwed": "Balance Owed",
+      "youOwe": "outstanding balance",
+      "overpaid": "credit balance",
+      "settled": "all settled",
+      "totalCharges": "Total Charges",
+      "keysGenerated": "keys generated",
+      "paymentsReceived": "Payments Received",
+      "payments": "payments",
+      "keyPrice": "Key Price",
+      "perKeyGenerated": "per key generated",
+      "noPaymentsYet": "No payment records yet. Records are created when keys are generated.",
+      "table": {
+        "type": "Type",
+        "generatedBy": "Generated By",
+        "keys": "Keys",
+        "usdAmount": "USD Amount",
+        "localAmount": "Local Amount",
+        "date": "Date",
+        "charge": "Charge",
+        "payment": "Payment"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "Opal × Terminus. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  },
+  "banner": {
+    "text": "Holiday Sale: Use code HOLIDAY10 for 10% off until Dec 31st"
+  },
+  "forums": {
+    "warningTitle": "Check for known bugs",
+    "warning": "Before creating a report, please verify if the bug has already been reported. Duplicate reports delay fixes.",
+    "roadmap": {
+      "title": "Roadmap",
+      "searchPlaceholder": "Search roadmap...",
+      "allCategories": "All Categories",
+      "empty": "No items",
+      "planned": "Planned",
+      "inProgress": "In Progress",
+      "done": "Done"
+    },
+    "suggestions": {
+      "title": "Suggestions",
+      "new": "New Suggestion",
+      "searchPlaceholder": "Search suggestions...",
+      "allStatuses": "All Statuses",
+      "pending": "Pending",
+      "approved": "Approved",
+      "denied": "Denied",
+      "empty": "No suggestions found matching your filters.",
+      "dialog": {
+        "title": "Suggest a Feature",
+        "titleLabel": "Title",
+        "titlePlaceholder": "Short title",
+        "contentLabel": "Description",
+        "contentPlaceholder": "Describe your suggestion...",
+        "submit": "Submit",
+        "submitting": "Submitting...",
+        "success": "Suggestion submitted"
+      }
+    },
+    "nav": {
+      "roadmap": "Roadmap",
+      "suggestions": "Suggestions",
+      "bugs": "Bug Reports",
+      "changelog": "Changelog"
+    },
+    "bugs": {
+      "title": "Bug Reports",
+      "new": "Report Bug",
+      "searchPlaceholder": "Search bugs...",
+      "allStatuses": "All Statuses",
+      "open": "Open",
+      "closed": "Closed",
+      "invalid": "Invalid",
+      "empty": "No bug reports found matching your filters.",
+      "noItems": "No bugs reported yet.",
+      "version": "Version",
+      "steps": "Steps",
+      "dialog": {
+        "title": "Report a Bug",
+        "titleLabel": "Issue Title",
+        "titlePlaceholder": "Brief summary",
+        "versionLabel": "Client Version",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "What happened?",
+        "stepsLabel": "Reproduction Steps",
+        "stepsPlaceholder": "1. Go to... 2. Click...",
+        "submit": "Submit Report",
+        "submitting": "Submitting...",
+        "success": "Bug report submitted"
+      }
+    }
+  },
+  "manage": {
+    "roadmap": {
+      "title": "Roadmap",
+      "searchPlaceholder": "Search roadmap...",
+      "filterStatus": "Filter by status",
+      "allStatuses": "All Statuses",
+      "addItem": "Add Item",
+      "editItem": "Edit Item",
+      "createItem": "Create Item",
+      "titleLabel": "Title",
+      "descriptionLabel": "Description",
+      "categoryLabel": "Category",
+      "categoryPlaceholder": "e.g. Client",
+      "typeLabel": "Type",
+      "feature": "Feature",
+      "bug": "Bug",
+      "statusLabel": "Status",
+      "planned": "Planned",
+      "inProgress": "In Progress",
+      "done": "Done",
+      "save": "Save",
+      "saving": "Saving...",
+      "table": {
+        "title": "Title",
+        "category": "Category",
+        "type": "Type",
+        "status": "Status",
+        "actions": "Actions",
+        "empty": "No items found"
+      },
+      "toast": {
+        "updated": "Item updated",
+        "created": "Item created",
+        "deleted": "Item deleted"
+      },
+      "confirmDelete": "Are you sure?"
+    },
+    "suggestions": {
+      "title": "Suggestions",
+      "searchPlaceholder": "Search suggestions...",
+      "filterStatus": "Filter by status",
+      "allStatuses": "All Statuses",
+      "pending": "Pending",
+      "approved": "Approved",
+      "denied": "Denied",
+      "table": {
+        "content": "Content",
+        "author": "Author",
+        "votes": "Votes",
+        "status": "Status",
+        "created": "Created",
+        "actions": "Actions",
+        "empty": "No suggestions found"
+      },
+      "toast": {
+        "approved": "Suggestion approved & coins rewarded",
+        "denied": "Suggestion denied",
+        "deleted": "Suggestion deleted"
+      },
+      "confirmDeny": "Deny this suggestion?",
+      "confirmDelete": "Are you absolutely sure? This will delete the suggestion permanently."
+    },
+    "bugs": {
+      "title": "Bug Reports",
+      "searchPlaceholder": "Search bug reports...",
+      "filterStatus": "Filter by status",
+      "allStatuses": "All Statuses",
+      "open": "Open",
+      "closed": "Closed",
+      "invalid": "Invalid",
+      "table": {
+        "issue": "Issue",
+        "author": "Author",
+        "version": "Version",
+        "status": "Status",
+        "created": "Created",
+        "actions": "Actions",
+        "empty": "No bug reports found"
+      },
+      "toast": {
+        "closed": "Bug report closed",
+        "invalid": "Bug report marked invalid",
+        "deleted": "Bug report deleted"
+      },
+      "confirmClose": "Close this bug report?",
+      "confirmInvalid": "Mark as invalid?",
+      "confirmDelete": "Are you absolutely sure? This will delete the bug report permanently."
+    }
+  }
+}
